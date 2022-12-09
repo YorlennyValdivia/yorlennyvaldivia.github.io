@@ -1,101 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <title>Mi primera página web</title>
   <head>
-    <!--
-      This is the page head - it contains info the browser uses to display the page
-      You won't see what's in the head in the page
-      Scroll down to the body element for the page content
-    -->
-
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
-
-    <!-- 
-      This is an HTML comment
-      You can write text in a comment and the content won't be visible in the page
-    -->
-
-    <title>Hello World!</title>
-
-    <!-- Meta tags for SEO and social sharing -->
-    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
-    <meta
-      name="description"
-      content="A simple website, built with Glitch. Remix it to get your own."
+  </head>
+  <body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
     />
-    <meta name="robots" content="index,follow" />
-    <meta property="og:title" content="Hello World!" />
-    <meta property="og:type" content="article" />
+    <h1>Hola, mi nombre es Yorlenny Valdivia</h1>
+    <div id="list-example" class="list-group">
+      <a
+        class="list-group-item list-group-item-action"
+        href="#list-Acerca de mi"
+        >Acerca de mi</a
+      >
+      <a class="list-group-item list-group-item-action" href="#list-Estudios"
+        >Estudios</a
+      >
+      <a
+        class="list-group-item list-group-item-action"
+        href="#list-relacionados"
+        >relacionados</a
+      >
+    </div>
+    <div>
+      data-spy="scroll" data-target="#list-example" data-offset="0"
+      class="scrollspy-example"
+    </div>
+    <h4 id="list-Acerca de mi">Acerca de mi</h4>
+    <p>
+      Nací el 07 de junio del 2003,actualmente tengo 19 años, soy de AREQUIPA -
+      Perú donde vivo actualmente, tengo diferentes hobbies entre ellos dibujar,
+      tocar guitarra, etc. Gracias a mi facilidad por aprender pude unirme a
+      diversos trabajos y proyectos esto ayudó a mejorar mi experiencia
+      actualmente me encuentro realizando comisiones gracias a mi experiencia
+      con el arte digital.
+    </p>
+    <h4 id="list-Estudios">Estudios</h4>
+    <div class="alert alert-info" role="alert">Primaria</div>
+    <p>
+      - Estudie mi educación primaria en I.E.P San Ignacio del Loyola donde tuve
+      mi primer roce con el mundo de la computación.
+    </p>
+    <div class="alert alert-info" role="alert">secundaria</div>
+    <p>
+      - Estudie mi educación secundaria en el colegio Pre-universitario Robert
+      F. Kennedy donde tuve la fortuna de encontrarme con buenos profesores los
+      cuales me enseñaron programación básica.
+    </p>
+    <div class="alert alert-info" role="alert">Educación superior</div>
+    <p>
+      - Actualmente me encuentro estudiando la carrera de Ciencia de la
+      Computación en la UCSP
+    </p>
+    <div class="alert alert-info" role="alert">otros</div>
+    <p>
+      - Lleve cursos de conciliación básica, Adobe ilustrator básico -
+      intermedio y avanzado, Adobe photoshop básico - intermedio y avanzado,
+      curso de animación básico.
+    </p>
+    <h4 id="list-relacionados">relacionados</h4>
+    <p>-Mis profesores es:</p>
+    <p>-Mis compañeros son:</p>
+    <button class="btn btn-primary" type="submit">WhatsApp</button>
+    <button class="btn btn-primary" type="submit">Facebook</button>
+    <button class="btn btn-primary" type="submit">instagram</button>
+    <button class="btn btn-primary" type="submit">Telegram</button>
+  </body>
+  <div></div>
+</html>
+icle" />
     <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
     <meta
       property="og:description"
-      content="A simple website, built with Glitch. Remix it to get your own."
-    />
+      ce, built with Glitch. Remix it to get your    />
     <meta
-      property="og:image"
-      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
-    />
-    <meta name="twitter:card" content="summary" />
-
-    <!-- Import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
-
-    <!-- Import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-  </head>
-  <body>
-    <!--
-      This is the body of the page
-      Look at the elements and see how they appear in the rendered page on the right
-      Each element is defined using tags, with < and > indicating where each one opens and closes
-      There are elements for sections of the page, images, text, and more
-      The elements include attributes referenced in the CSS for the page style
-    -->
-
-    <!-- The wrapper and content divs set margins and positioning -->
-    <div class="wrapper">
-      <div class="content" role="main">
-        <!-- This is the start of content for our page -->
-        <h1 class="title">Hello World!</h1>
-
-        <img
-          src="https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2Fillustration.svg?v=1618177344016"
-          class="illustration"
-          alt="Editor illustration"
-          title="Click the image!"
+      property="og:imageone opens and closes
+      There are elements for sectio!"
         />
-        <!-- Instructions on using this project -->
-        <div class="instructions">
-          <h2>
-            Using this project
-          </h2>
-          <p>
-            This is the Glitch <strong>Hello Website</strong> project. You can
-            use it to build your own site. Check out README.md in the editor for
-            more info and next steps you can take!
-          </p>
-          <!-- ADD BUTTON HERE -->
-          
-          <!-- Once you've added the button from the readme, click it in the page -->
-          <!-- Check out the function in script.js to see how it works -->
-        </div>
-      </div>
-    </div>
-    <!-- The footer holds our remix button — you can use it for structure or cut it out ✂ -->
-    <footer class="footer">
-      <div class="links"></div>
-      <a
-        class="btn--remix"
-        target="_top"
-        href="https://glitch.com/edit/#!/remix/glitch-hello-website"
-      >
-        <img
-          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
-          alt=""
-        />
-        Remix on Glitch
-      </a>
-    </footer>
-  </body>
-</html>
